@@ -1,6 +1,6 @@
 import { Network, TokensConfig, TokenSymbol, TokenConfig } from "./types";
 export const TOKENS: Record<Network, TokensConfig> = {
-  [Network.KAIA]: {
+  [Network.KAIROS]: {
     [TokenSymbol.KAIA]: {
       name: "KAIA",
       symbol: "KAIA",
@@ -14,73 +14,24 @@ export const TOKENS: Record<Network, TokensConfig> = {
       symbol: "USDT",
       logo: "/token/usdt.png",
       decimals: 6,
-      address: "0x0000000000000000000000000000000000000000",
-      oftAddress: "0x0000000000000000000000000000000000000000", // OFT for cross-chain
+      address: "0xEb36AA674745c48381AA3A8074E5485586dBD308",
+      oftAddress: "0x1e68394DBd41F77Adf0644CE47b25D1023D664B1", // OFT for cross-chain
     },
-    [TokenSymbol.USDC]: {
-      name: "USD Coin",
-      symbol: "USDC",
+    [TokenSymbol.WKAIA]: {
+      name: "WKAIA",
+      symbol: "WKAIA",
       logo: "/token/usdc.png",
       decimals: 6,
-      address: "0x0000000000000000000000000000000000000000",
-      oftAddress: "0x0000000000000000000000000000000000000000", // OFT for cross-chain
+      address: "0xFE4f79Ea2211660A221bed8b4E2de7Eb8579Fe67",
+      oftAddress: "0xd506b22a6b3216b736021FA262D0F5D686e07b35", // OFT for cross-chain
     },
     [TokenSymbol.WETH]: {
       name: "Wrapped Ether",
       symbol: "WETH",
       logo: "/token/weth.png",
       decimals: 18,
-      address: "0x0000000000000000000000000000000000000000",
-      oftAddress: "0x0000000000000000000000000000000000000000",
-    },
-    [TokenSymbol.WBTC]: {
-      name: "Wrapped Bitcoin",
-      symbol: "WBTC",
-      logo: "/token/wbtc.png",
-      decimals: 8,
-      address: "0x0000000000000000000000000000000000000000",
-    },
-  },
-  [Network.BASE]: {
-    [TokenSymbol.KAIA]: {
-      name: "KAIA",
-      symbol: "KAIA",
-      logo: "/token/ethereum.png",
-      decimals: 18,
-      address: "0x0000000000000000000000000000000000000001",
-      oftAddress: "0x0000000000000000000000000000000000000000",
-    },
-    [TokenSymbol.USDT]: {
-      name: "Tether USD",
-      symbol: "USDT",
-      logo: "/token/usdt.png",
-      decimals: 6,
-      address: "0xd61F31154bF292c7bE2fD81fAc9810f6d93Ecc2B", // mock usdt
-      oftAddress: "0x0000000000000000000000000000000000000000",
-    },
-    [TokenSymbol.USDC]: {
-      name: "USD Coin",
-      symbol: "USDC",
-      logo: "/token/usdc.png",
-      decimals: 6,
-      address: "0xD2E0F459A2518b9459B9b11dB5Aa014F0BF622A7", // mock wkaia
-      oftAddress: "0x0000000000000000000000000000000000000000",
-    },
-    [TokenSymbol.WETH]: {
-      name: "Wrapped Ether",
-      symbol: "WETH",
-      logo: "/token/weth.png",
-      decimals: 18,
-      address: "0x7954270F038BFaE7760cCF8D9094745d3E9cf4A3", // mock weth
-      oftAddress: "0x0000000000000000000000000000000000000000",
-    },
-    [TokenSymbol.WBTC]: {
-      name: "Wrapped Bitcoin",
-      symbol: "WBTC",
-      logo: "/token/wbtc.png",
-      decimals: 8,
-      address: "0x6AE5E129054a5dBFCeBb9Dfcb1CE1AA229fB1Ddb",
-      oftAddress: "0x0000000000000000000000000000000000000000",
+      address: "0x7B3C20D2B3F8C205f624e62D356354Ed1Ae9F64b",
+      oftAddress: "0x31fC86E13108A098830eea63A8A9f6d80DfC89Aa",
     },
   },
 };

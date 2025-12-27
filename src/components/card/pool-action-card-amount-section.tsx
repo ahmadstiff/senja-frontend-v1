@@ -65,7 +65,6 @@ export const AmountSection = ({
     );
   }
 
-  // Borrow tetap gunakan layout frame khusus
   return (
     <div className="space-y-2 border border-neutral-800 bg-neutral-900 p-3 text-xs text-neutral-300">
       <div className="border border-neutral-700 bg-neutral-950 px-3 py-3">

@@ -4,7 +4,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { darkTheme, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { WagmiProvider } from "wagmi";
 import { config } from "../lib/config";
-import { base } from "viem/chains";
+import { avalanche } from "viem/chains";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,7 @@ export const Providers = ({ children }: ProvidersProps) => {
             overlayBlur: "large",
           })}
           modalSize="compact"
-          initialChain={base}
+          initialChain={avalanche}
         >
           {children}
         </RainbowKitProvider>

@@ -13,7 +13,7 @@ const useUserBalance = () => {
       return await getBalance(config, { address });
     },
     enabled: !!address,
-    refetchInterval: 10000, 
+    refetchInterval: 10000,
     staleTime: 5000,
   });
 
@@ -29,4 +29,3 @@ const useUserBalance = () => {
 };
 
 export default useUserBalance;
-   

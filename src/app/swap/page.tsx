@@ -1,9 +1,5 @@
-import React from 'react'
+import SwapPage from "@/components/swap/swap-page";
 
-const SwapPage = () => {
-  return (
-    <div>SwapPage</div>
-  )
+export default function SwapRoute() {
+  return <SwapPage />;
 }
-
-export default SwapPage

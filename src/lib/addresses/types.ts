@@ -1,8 +1,7 @@
 export type Address = `0x${string}`;
 
 export enum Network {
-  KAIA = "kaia",
-  BASE = "base",
+  KAIROS = "kairos",
 }
 
 export interface TokenConfig {
@@ -17,9 +16,8 @@ export interface TokenConfig {
 export enum TokenSymbol {
   KAIA = "KAIA",
   USDT = "USDT",
-  USDC = "USDC",
   WETH = "WETH",
-  WBTC = "WBTC",
+  WKAIA = "WKAIA",
 }
 
 export type TokensConfig = {

@@ -30,7 +30,6 @@ const fetchPools = async (): Promise<PoolWithTokens[]> => {
       const collateral = getTokenByAddress(pool.collateralToken);
       const borrow = getTokenByAddress(pool.borrowToken);
 
-      // Jika token tidak terdaftar di mapping, pool tidak ditampilkan
       if (!collateral || !borrow) return null;
 
       return {
